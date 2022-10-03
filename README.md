@@ -14,7 +14,7 @@
 
 ## After that, four questions will pop up that ask whether or not you'd like uppercase or lowercase letters, numbers, and/or special characters in your password. 
 
-## ![GeneratedPassword](assets/Images/GeneratedPassword.png)
+## ![GeneratedPassword](/Assets/Images/GeneratedPassword.png)
 
 
 ## After those questions are answered, your password will be generated in the box for you to copy and paste!
