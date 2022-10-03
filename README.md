@@ -10,13 +10,13 @@
 
 ## Once you click on the Generate Password button, a prompt should pop up that asks you how long your password should be. Enter a number between 8-128 to determine the length of your password. If a number outside of those parameters is inserted, an error will occur.
 
-## ![Popup](assets/Popup1.png) 
+## ![Popup](assets/images/Popup1.png) 
 
 ## After that, four questions will pop up that ask whether or not you'd like uppercase or lowercase letters, numbers, and/or special characters in your password. 
 
-## ![GeneratedPassword](assets/GeneratedPassword.png)
+## ![GeneratedPassword](assets/Images/GeneratedPassword.png)
 
 
 ## After those questions are answered, your password will be generated in the box for you to copy and paste!
 
-## Visit the Password Generator [Here](https://joshuatoback.github.io/online-password-generator/)
+## Visit the Password Generator [Here](https://joshuatoback.github.io/online-password-generator/)!
