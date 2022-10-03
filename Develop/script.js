@@ -23,26 +23,26 @@ function generatePassword() {
     }
   
   var passUpper = confirm('Do you want uppercase letters in your password?');
-  if (passUpper === true) {
+  if (passUpper == true) {
      allCharacters += upperCase
   }
   
   var passLower = confirm('Do you want lowercase letters in your password?');
-  if (passLower === true) {
+  if (passLower == true) {
     allCharacters += lowerCase
  }
  
   var passNum = confirm('Do you want numbers in your password?');
-  if (passNum === true) {
+  if (passNum == true) {
     allCharacters += numbers
 
   }
-  var passSpecial = confirm('Do you want special characters in your password?')
-  if (passSpecial === true) {
+  var passSpecial = confirm('Do you want special characters in your password?');
+  if (passSpecial == true) {
     allCharacters += specialCharacters
  }
 
- var passwordRandom  
+ var passwordRandom = ''
  for (var i = 0, n = allCharacters.length; i < passwordLength; ++i) {
   passwordRandom += allCharacters.charAt(Math.floor(Math.random() * n));
 }
