@@ -7,13 +7,6 @@ var allCharacters = '';
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-}
 
 function generatePassword() {
   var passwordLength = prompt('What is the length of your password?');
@@ -22,23 +15,29 @@ function generatePassword() {
     return generatePassword();
     }
   
+
+// Variables listed below determine whether or not an array is used in the generator.
   var passUpper = confirm('Do you want uppercase letters in your password?');
   if (passUpper == true) {
+    console.log('tag4', allCharacters);
      allCharacters += upperCase
   }
   
   var passLower = confirm('Do you want lowercase letters in your password?');
   if (passLower == true) {
+    console.log('tag3', allCharacters);
     allCharacters += lowerCase
  }
  
   var passNum = confirm('Do you want numbers in your password?');
   if (passNum == true) {
+    console.log('tag2', allCharacters);
     allCharacters += numbers
 
   }
   var passSpecial = confirm('Do you want special characters in your password?');
   if (passSpecial == true) {
+    console.log('tag1', allCharacters);
     allCharacters += specialCharacters
  }
 
@@ -49,6 +48,14 @@ function generatePassword() {
 
 console.log(passwordRandom);
 return passwordRandom;
+}
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
 }
 
 // Add event listener to generate button
